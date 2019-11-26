@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9EC6D066238D6F7A00E69F68 /* Spork_13_004.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spork_13_004.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC6D066238D6F7A00E69F68 /* EventLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC6D069238D6F7A00E69F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC6D06B238D6F7A00E69F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9EC6D06E238D6F7A00E69F68 /* Spork_13_004.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spork_13_004.xcdatamodel; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		9EC6D067238D6F7A00E69F68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EC6D066238D6F7A00E69F68 /* Spork_13_004.app */,
+				9EC6D066238D6F7A00E69F68 /* EventLogger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,6 +88,7 @@
 				9EC6D062238D6F7A00E69F68 /* Sources */,
 				9EC6D063238D6F7A00E69F68 /* Frameworks */,
 				9EC6D064238D6F7A00E69F68 /* Resources */,
+				9EC6D081238D714E00E69F68 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -95,7 +96,7 @@
 			);
 			name = Spork_13_004;
 			productName = Spork_13_004;
-			productReference = 9EC6D066238D6F7A00E69F68 /* Spork_13_004.app */;
+			productReference = 9EC6D066238D6F7A00E69F68 /* EventLogger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,6 +144,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EC6D081238D714E00E69F68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "agvtool next-version -all\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EC6D062238D6F7A00E69F68 /* Sources */ = {
@@ -289,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2308;
 				DEVELOPMENT_ASSET_PATHS = "\"Spork_13_004/Preview Content\"";
 				DEVELOPMENT_TEAM = G3S2RG9ZZK;
 				ENABLE_PREVIEWS = YES;
@@ -297,10 +319,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2019.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roguespork.Spork-13-004";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EventLogger;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -309,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2308;
 				DEVELOPMENT_ASSET_PATHS = "\"Spork_13_004/Preview Content\"";
 				DEVELOPMENT_TEAM = G3S2RG9ZZK;
 				ENABLE_PREVIEWS = YES;
@@ -317,10 +342,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2019.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roguespork.Spork-13-004";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EventLogger;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
