@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E091E8E238E27E700BDD219 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E091E8D238E27E700BDD219 /* EventDetailView.swift */; };
 		9EC6D06A238D6F7A00E69F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D069238D6F7A00E69F68 /* AppDelegate.swift */; };
 		9EC6D06C238D6F7A00E69F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D06B238D6F7A00E69F68 /* SceneDelegate.swift */; };
 		9EC6D06F238D6F7A00E69F68 /* Spork_13_004.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D06D238D6F7A00E69F68 /* Spork_13_004.xcdatamodeld */; };
@@ -14,9 +15,13 @@
 		9EC6D073238D6F7C00E69F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC6D072238D6F7C00E69F68 /* Assets.xcassets */; };
 		9EC6D076238D6F7C00E69F68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC6D075238D6F7C00E69F68 /* Preview Assets.xcassets */; };
 		9EC6D079238D6F7C00E69F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC6D077238D6F7C00E69F68 /* LaunchScreen.storyboard */; };
+		9EC6D083238D7C2700E69F68 /* LoggedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D082238D7C2700E69F68 /* LoggedEvent.swift */; };
+		9EC6D085238D7F9100E69F68 /* LoggedEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D084238D7F9100E69F68 /* LoggedEventView.swift */; };
+		9EC6D087238D81E700E69F68 /* AddEventButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC6D086238D81E700E69F68 /* AddEventButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E091E8D238E27E700BDD219 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		9EC6D066238D6F7A00E69F68 /* EventLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC6D069238D6F7A00E69F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC6D06B238D6F7A00E69F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		9EC6D075238D6F7C00E69F68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EC6D078238D6F7C00E69F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC6D07A238D6F7C00E69F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC6D082238D7C2700E69F68 /* LoggedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedEvent.swift; sourceTree = "<group>"; };
+		9EC6D084238D7F9100E69F68 /* LoggedEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedEventView.swift; sourceTree = "<group>"; };
+		9EC6D086238D81E700E69F68 /* AddEventButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				9EC6D069238D6F7A00E69F68 /* AppDelegate.swift */,
 				9EC6D06B238D6F7A00E69F68 /* SceneDelegate.swift */,
 				9EC6D070238D6F7A00E69F68 /* ContentView.swift */,
+				9EC6D086238D81E700E69F68 /* AddEventButton.swift */,
+				9EC6D084238D7F9100E69F68 /* LoggedEventView.swift */,
+				9EC6D082238D7C2700E69F68 /* LoggedEvent.swift */,
+				9E091E8D238E27E700BDD219 /* EventDetailView.swift */,
 				9EC6D072238D6F7C00E69F68 /* Assets.xcassets */,
 				9EC6D077238D6F7C00E69F68 /* LaunchScreen.storyboard */,
 				9EC6D07A238D6F7C00E69F68 /* Info.plist */,
@@ -170,10 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E091E8E238E27E700BDD219 /* EventDetailView.swift in Sources */,
 				9EC6D06A238D6F7A00E69F68 /* AppDelegate.swift in Sources */,
 				9EC6D06C238D6F7A00E69F68 /* SceneDelegate.swift in Sources */,
+				9EC6D083238D7C2700E69F68 /* LoggedEvent.swift in Sources */,
 				9EC6D071238D6F7A00E69F68 /* ContentView.swift in Sources */,
 				9EC6D06F238D6F7A00E69F68 /* Spork_13_004.xcdatamodeld in Sources */,
+				9EC6D087238D81E700E69F68 /* AddEventButton.swift in Sources */,
+				9EC6D085238D7F9100E69F68 /* LoggedEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,9 +326,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2308;
+				CURRENT_PROJECT_VERSION = 2335;
 				DEVELOPMENT_ASSET_PATHS = "\"Spork_13_004/Preview Content\"";
-				DEVELOPMENT_TEAM = G3S2RG9ZZK;
+				DEVELOPMENT_TEAM = LRFMEC5929;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Spork_13_004/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2019.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.roguespork.Spork-13-004";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roguespork.Spork-13-004-EventLogger";
 				PRODUCT_NAME = EventLogger;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,9 +349,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2308;
+				CURRENT_PROJECT_VERSION = 2335;
 				DEVELOPMENT_ASSET_PATHS = "\"Spork_13_004/Preview Content\"";
-				DEVELOPMENT_TEAM = G3S2RG9ZZK;
+				DEVELOPMENT_TEAM = LRFMEC5929;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Spork_13_004/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,7 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2019.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.roguespork.Spork-13-004";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roguespork.Spork-13-004-EventLogger";
 				PRODUCT_NAME = EventLogger;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
